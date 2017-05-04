@@ -83,6 +83,9 @@ defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 printf "Bluetooth - Increase sound quality for headphones/headsets\n"
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
+printf "Menu Bar - Show battery percentage\n"
+defaults write com.apple.menuextra.battery ShowPercent YES
+
 printf "Menu Bar - Show only Bluetooth and Airport\n"
 for domain in $HOME/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
   defaults write "${domain}" dontAutoLoad -array "/System/Library/CoreServices/Menu Extras/TimeMachine.menu"
