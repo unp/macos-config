@@ -34,3 +34,5 @@ sudo scutil --set HostName $mac_os_name
 sudo scutil --set LocalHostName $mac_os_name
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string $mac_os_name
 
+printf "Setting up SSH keys\n"
+ssh-keygen -t rsa -b 4096 -C "$EMAIL"

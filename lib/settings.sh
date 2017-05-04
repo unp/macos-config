@@ -10,6 +10,9 @@ set -o errexit
 set -o pipefail
 IFS=$'\n\t'
 
+# User Information
+export EMAIL=umang@umang.com
+
 # Ruby
 export MRI=2.4.1
 
