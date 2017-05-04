@@ -27,9 +27,6 @@ brew install asciinema
 # Bash
 brew install bash
 
-# Bash Completion
-brew install bash-completion
-
 # chruby
 brew install chruby
 
@@ -68,9 +65,6 @@ brew install fzf
 
 # GDBM
 brew install gdbm
-
-# Gifsicle
-brew install gifsicle
 
 # Git
 brew install git
@@ -123,12 +117,6 @@ brew install mas
 # Memcached
 brew install memcached
 
-# Mercurial
-brew install hg
-
-# Mosh
-brew install mobile-shell
-
 # Namebench
 brew install namebench
 
@@ -141,9 +129,6 @@ brew install nginx
 # Node
 brew install node
 
-# Parallel
-brew install parallel
-
 # Peco
 brew install peco
 
@@ -153,17 +138,8 @@ brew install pgcli
 # Phantom.js
 brew install phantomjs
 
-# Pigz
-brew install pigz
-
-# Pipe Viewer
-brew install pv
-
 # PostgreSQL
 brew install postgresql
-
-# Ranger
-brew install ranger
 
 # Redis
 brew install redis
@@ -205,9 +181,6 @@ brew install vim
 
 # Watchman
 brew install watchman
-
-# Wry
-brew install wry
 
 # Yank
 brew install yank
